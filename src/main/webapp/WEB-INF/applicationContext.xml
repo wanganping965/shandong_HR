@@ -16,10 +16,10 @@
 
     <context:annotation-config />
 
-    <context:component-scan base-package="com.jasonpiao.dao"/>
+    <context:component-scan base-package="com.project.dao"/>
 
 
-    <context:component-scan base-package="com.jasonpiao.db"/>
+    <context:component-scan base-package="com.project.db"/>
 
 
 

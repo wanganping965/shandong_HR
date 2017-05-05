@@ -28,9 +28,9 @@
     <!--</settings>-->
 
     <typeAliases>
-        <typeAlias alias="Userlog" type="com.jasonpiao.model.Userlog"/>
-        <typeAlias alias="BookInfo" type="com.jasonpiao.model.BookInfo"/>
-        <typeAlias alias="UserlogBookInfo" type="com.jasonpiao.model.UserlogBookInfo"/>
+        <!--<typeAlias alias="Userlog" type="com.jasonpiao.model.Userlog"/>-->
+        <!--<typeAlias alias="BookInfo" type="com.jasonpiao.model.BookInfo"/>-->
+        <!--<typeAlias alias="UserlogBookInfo" type="com.jasonpiao.model.UserlogBookInfo"/>-->
     </typeAliases>
 
     <environments default="development">
@@ -42,15 +42,15 @@
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql://127.0.0.1:3306/mylib_jason"/>
                 <property name="username" value="root"/>
-                <property name="password" value="123456"/>
+                <property name="password" value="root"/>
             </dataSource>
         </environment>
     </environments>
 
     <mappers>
-        <mapper resource="usersql.xml"/>
-        <mapper resource="bookinfosql.xml"/>
-        <mapper resource="userbooksql.xml"/>
+        <!--<mapper resource="usersql.xml"/>-->
+        <!--<mapper resource="bookinfosql.xml"/>-->
+        <!--<mapper resource="userbooksql.xml"/>-->
     </mappers>
 
 </configuration>

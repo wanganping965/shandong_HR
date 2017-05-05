@@ -12,11 +12,11 @@
 
     <!--指明 controller 所在包，并扫描其中的注解-->
 
-    <context:component-scan base-package="com.jasonpiao.controller">
+    <context:component-scan base-package="com.project.controller">
         <!--<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"></context:include-filter>-->
         <!--<context:include-filter type="annotation" expression="org.springframework.stereotype.Service"></context:include-filter>-->
     </context:component-scan>
-    <context:component-scan base-package="com.jasonpiao.service"/>
+    <context:component-scan base-package="com.project.service"/>
     <!--<context:component-scan base-package="test1.*"/>-->
     <!--<context:component-scan base-package="com.gaussic">-->
     <!---->
