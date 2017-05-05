@@ -16,6 +16,7 @@ import static org.apache.ibatis.io.Resources.*;
 @Component("connectDB")
 public class ConnectDB
 {
+    //a test connection from Anping
     public SqlSession getSqlSession() throws IOException {
 
         Reader reader= getResourceAsReader("mybatis-configure.xml");
