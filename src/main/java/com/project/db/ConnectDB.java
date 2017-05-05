@@ -21,6 +21,7 @@ public class ConnectDB
         Reader reader= getResourceAsReader("mybatis-configure.xml");
         SqlSessionFactory sqlSessionFactory=new SqlSessionFactoryBuilder().build(reader);
         SqlSession sqlSession=sqlSessionFactory.openSession();
+        System.out.println(sqlSession.toString()); // 5.5 for test
         return sqlSession;
     }
 }
