@@ -22,7 +22,7 @@ public class Data {
     private int approveOrNot;
 
 
-
+//ii
     public String getOrgnazation() {
         return orgnazation;
     }
