@@ -1,4 +1,4 @@
-package com.jasonpiao.model;
+package com.project.db.model;
 
 import java.sql.Date;
 
