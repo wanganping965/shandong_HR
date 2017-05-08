@@ -7,13 +7,13 @@ public class EnterpriseBasicInformation {
 
     private String userName;
     private String area;
-    private String organization;
+    private String organizationCode;
     private String enterpriseName;
     private String enterpriseProperty;
     private String industryInvolved;
     private String business;
     private String contacts;
-    private String adrress;
+    private String address;
     private String postalcode;
     private String phone;
     private String fax;
@@ -36,12 +36,12 @@ public class EnterpriseBasicInformation {
         this.area = area;
     }
 
-    public String getOrganization() {
-        return organization;
+    public String getOrganizationCode() {
+        return organizationCode;
     }
 
-    public void setOrganization(String organization) {
-        this.organization = organization;
+    public void setOrganizationCode(String organizationCode) {
+        this.organizationCode = organizationCode;
     }
 
     public String getEnterpriseName() {
@@ -84,12 +84,12 @@ public class EnterpriseBasicInformation {
         this.contacts = contacts;
     }
 
-    public String getAdrress() {
-        return adrress;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAdrress(String adrress) {
-        this.adrress = adrress;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getPostalcode() {
@@ -129,13 +129,13 @@ public class EnterpriseBasicInformation {
         return "EnterpriseBasicInformation{" +
                 "userName='" + userName + '\'' +
                 ", area='" + area + '\'' +
-                ", organization='" + organization + '\'' +
+                ", organization='" + organizationCode + '\'' +
                 ", enterpriseName='" + enterpriseName + '\'' +
                 ", enterpriseProperty='" + enterpriseProperty + '\'' +
                 ", industryInvolved='" + industryInvolved + '\'' +
                 ", business='" + business + '\'' +
                 ", contacts='" + contacts + '\'' +
-                ", adrress='" + adrress + '\'' +
+                ", adrress='" + address + '\'' +
                 ", postalcode='" + postalcode + '\'' +
                 ", phone='" + phone + '\'' +
                 ", fax='" + fax + '\'' +
@@ -143,19 +143,19 @@ public class EnterpriseBasicInformation {
                 '}';
     }
 
-    public void setAll(String userName, String area, String organization, String enterpriseName, String enterpriseProperty,
+    public void setAll(String userName, String area, String organizationCode, String enterpriseName, String enterpriseProperty,
                        String industryInvolved, String business,String contacts,
-                       String adrress, String postalcode, String phone, String fax, String email)
+                       String address, String postalcode, String phone, String fax, String email)
     {
         setUserName(userName);
         setArea(area);
-        setOrganization(organization);
+        setOrganizationCode(organizationCode);
         setEnterpriseName(enterpriseName);
         setEnterpriseProperty(enterpriseProperty);
         setIndustryInvolved(industryInvolved);
         setBusiness(business);
         setContacts(contacts);
-        setAdrress(adrress);
+        setAddress(address);
         setPostalcode(postalcode);
         setPhone(phone);
         setFax(fax);

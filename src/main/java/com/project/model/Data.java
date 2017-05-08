@@ -6,7 +6,7 @@ import java.sql.Date;
  * Created by 未来人类 on 2017/5/7.
  */
 public class Data {
-    private String orgnazation;
+    private String organizationCode;
     private int d_id;
     private Date dataTime;
     private int employmentDuringBookbuilding;
@@ -14,21 +14,21 @@ public class Data {
     private String otherReason;
     private String typeOfEmployDeclining;
     private String mainReason;
-    private String explainationOfMainReason;
+    private String explanationOfMainReason;
     private String secondReason;;
-    private String explainationOfSecondReason;
+    private String explanationOfSecondReason;
     private String thirdReason;
-    private String explainationOfThirdReason;
+    private String explanationOfThirdReason;
     private int approveOrNot;
 
 
 //ii
-    public String getOrgnazation() {
-        return orgnazation;
+    public String getOrgnazationCode() {
+        return organizationCode;
     }
 
-    public void setOrgnazation(String orgnazation) {
-        this.orgnazation = orgnazation;
+    public void setOrgnazationCode(String organizationCode) {
+        this.organizationCode = organizationCode;
     }
 
     public int getD_id() {
@@ -88,11 +88,11 @@ public class Data {
     }
 
     public String getExplainationOfMainReason() {
-        return explainationOfMainReason;
+        return explanationOfMainReason;
     }
 
-    public void setExplainationOfMainReason(String explainationOfMainReason) {
-        this.explainationOfMainReason = explainationOfMainReason;
+    public void setExplanationOfMainReason(String explanationOfMainReason) {
+        this.explanationOfMainReason = explanationOfMainReason;
     }
 
     public String getSecondReason() {
@@ -104,11 +104,11 @@ public class Data {
     }
 
     public String getExplainationOfSecondReason() {
-        return explainationOfSecondReason;
+        return explanationOfSecondReason;
     }
 
-    public void setExplainationOfSecondReason(String explainationOfSecondReason) {
-        this.explainationOfSecondReason = explainationOfSecondReason;
+    public void setExplanationOfSecondReason(String explainationOfSecondReason) {
+        this.explanationOfSecondReason = explainationOfSecondReason;
     }
 
     public String getThirdReason() {
@@ -120,11 +120,11 @@ public class Data {
     }
 
     public String getExplainationOfThirdReason() {
-        return explainationOfThirdReason;
+        return explanationOfThirdReason;
     }
 
-    public void setExplainationOfThirdReason(String explainationOfThirdReason) {
-        this.explainationOfThirdReason = explainationOfThirdReason;
+    public void setExplanationOfThirdReason(String explanationOfThirdReason) {
+        this.explanationOfThirdReason = explanationOfThirdReason;
     }
 
     public int getApproveOrNot() {
@@ -138,7 +138,7 @@ public class Data {
     @Override
     public String toString() {
         return "Data{" +
-                "orgnazation='" + orgnazation + '\'' +
+                "organizationCode='" + organizationCode + '\'' +
                 ", d_id=" + d_id +
                 ", dataTime=" + dataTime +
                 ", employmentDuringBookbuilding=" + employmentDuringBookbuilding +
@@ -146,21 +146,21 @@ public class Data {
                 ", otherReason='" + otherReason + '\'' +
                 ", typeOfEmployDeclining='" + typeOfEmployDeclining + '\'' +
                 ", mainReason='" + mainReason + '\'' +
-                ", explainationOfMainReason='" + explainationOfMainReason + '\'' +
+                ", explanationOfMainReason='" + explanationOfMainReason + '\'' +
                 ", secondReason='" + secondReason + '\'' +
-                ", explainationOfSecondReason='" + explainationOfSecondReason + '\'' +
+                ", explanationOfSecondReason='" + explanationOfSecondReason + '\'' +
                 ", thirdReason='" + thirdReason + '\'' +
-                ", explainationOfThirdReason='" + explainationOfThirdReason + '\'' +
+                ", explanationOfThirdReason='" + explanationOfThirdReason + '\'' +
                 ", approveOrNot=" + approveOrNot +
                 '}';
     }
 
-    public void setAll(String orgnazation, int d_id, Date dataTime, int employmentDuringBookbuilding,
+    public void setAll(String organizationCode, int d_id, Date dataTime, int employmentDuringBookbuilding,
                        int employmentDuringInquiry, String otherReason, String typeOfEmployDeclining, String mainReason,
-                       String explainationOfMainReason, String secondReason, String explainationOfSecondReason, String thirdReason,
-                       String explainationOfThirdReason, int approveOrNot)
+                       String explanationOfMainReason, String secondReason, String explanationOfSecondReason, String thirdReason,
+                       String explanationOfThirdReason, int approveOrNot)
     {
-        setOrgnazation(orgnazation);
+        setOrgnazationCode(organizationCode);
         setD_id(d_id);
         setDataTime(dataTime);
         setEmploymentDuringBookbuilding(employmentDuringBookbuilding);
@@ -168,11 +168,11 @@ public class Data {
         setOtherReason(otherReason);
         setTypeOfEmployDeclining(typeOfEmployDeclining);
         setMainReason(mainReason);
-        setExplainationOfMainReason(explainationOfMainReason);
+        setExplanationOfMainReason(explanationOfMainReason);
         setSecondReason(secondReason);
-        setExplainationOfSecondReason(explainationOfSecondReason);
+        setExplanationOfSecondReason(explanationOfSecondReason);
         setThirdReason(thirdReason);
-        setExplainationOfThirdReason(explainationOfThirdReason);
+        setExplanationOfThirdReason(explanationOfThirdReason);
         setApproveOrNot(approveOrNot);
     }
 }

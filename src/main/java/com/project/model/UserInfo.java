@@ -6,7 +6,7 @@ package com.project.model;
 public class UserInfo {
     private String userName;
     private String roleName;
-    private String passworsd;
+    private String password;
 
     public String getUserName() {
         return userName;
@@ -24,12 +24,12 @@ public class UserInfo {
         this.roleName = roleName;
     }
 
-    public String getPassworsd() {
-        return passworsd;
+    public String getPassword() {
+        return password;
     }
 
-    public void setPassworsd(String passworsd) {
-        this.passworsd = passworsd;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     @Override
@@ -37,15 +37,15 @@ public class UserInfo {
         return "UserInfo{" +
                 "userName='" + userName + '\'' +
                 ", roleName='" + roleName + '\'' +
-                ", passworsd='" + passworsd + '\'' +
+                ", passworsd='" + password + '\'' +
                 '}';
     }
 
-    public void setAll(String userName, String roleName, String passworsd)
+    public void setAll(String userName, String roleName, String password)
     {
         setUserName(userName);
         setRoleName(roleName);
-        setPassworsd((passworsd));
+        setPassword((password));
     }
 
 }

@@ -9,14 +9,14 @@ public class Role {
     private int e_enterpriseBasicInformation;
     private int e_data;
     private int e_pastData;
-    private int enterpriseBasicInfomation;
+    private int enterpriseBasicInformation;
     private int dataManagement;
     private int dataSummary;
     private int samplingAnalysis;
     private int diagramAnalysis;
     private int dataInqueryAndExpert;
     private int notificationPublishing;
-    private int systemManagment;
+    private int systemManagement;
 
 
     public String getRoleName() {
@@ -59,12 +59,12 @@ public class Role {
         this.e_pastData = e_pastData;
     }
 
-    public int getEnterpriseBasicInfomation() {
-        return enterpriseBasicInfomation;
+    public int getEnterpriseBasicInformation() {
+        return enterpriseBasicInformation;
     }
 
-    public void setEnterpriseBasicInfomation(int enterpriseBasicInfomation) {
-        this.enterpriseBasicInfomation = enterpriseBasicInfomation;
+    public void setEnterpriseBasicInformation(int enterpriseBasicInformation) {
+        this.enterpriseBasicInformation = enterpriseBasicInformation;
     }
 
     public int getDataManagement() {
@@ -115,12 +115,12 @@ public class Role {
         this.notificationPublishing = notificationPublishing;
     }
 
-    public int getSystemManagment() {
-        return systemManagment;
+    public int getSystemManagement() {
+        return systemManagement;
     }
 
-    public void setSystemManagment(int systemManagment) {
-        this.systemManagment = systemManagment;
+    public void setSystemManagement(int systemManagement) {
+        this.systemManagement = systemManagement;
     }
 
     @Override
@@ -131,38 +131,38 @@ public class Role {
                 ", e_enterpriseBasicInformation=" + e_enterpriseBasicInformation +
                 ", e_data=" + e_data +
                 ", e_pastData=" + e_pastData +
-                ", enterpriseBasicInfomation=" + enterpriseBasicInfomation +
+                ", enterpriseBasicInfomation=" + enterpriseBasicInformation +
                 ", dataManagement=" + dataManagement +
                 ", dataSummary=" + dataSummary +
                 ", samplingAnalysis=" + samplingAnalysis +
                 ", diagramAnalysis=" + diagramAnalysis +
                 ", dataInqueryAndExpert=" + dataInqueryAndExpert +
                 ", notificationPublishing=" + notificationPublishing +
-                ", systemManagment=" + systemManagment +
+                ", systemManagment=" + systemManagement +
                 '}';
     }
 
     public void setAll(String roleName,int e_notification,int e_enterpriseBasicInformation,int e_data,
-                       int e_pastData,int enterpriseBasicInfomation,int dataManagement,int dataSummary,
+                       int e_pastData,int enterpriseBasicInformation,int dataManagement,int dataSummary,
                        int samplingAnalysis,
                        int dataInqueryAndExpert,
                        int diagramAnalysis,
                        int notificationPublishing,
-                       int systemManagment)
+                       int systemManagement)
     {
         setRoleName(roleName);
         setE_notification(e_notification);
         setE_enterpriseBasicInformation(e_enterpriseBasicInformation);
         setE_data(e_data);
         setE_pastData(e_pastData);
-        setEnterpriseBasicInfomation( enterpriseBasicInfomation);
+        setEnterpriseBasicInformation( enterpriseBasicInformation);
         setDataManagement( dataManagement);
         setDataSummary(dataSummary);
         setSamplingAnalysis( samplingAnalysis);
         setDiagramAnalysis(diagramAnalysis);
         setDataInqueryAndExpert(dataInqueryAndExpert);
         setNotificationPublishing( notificationPublishing);
-        setSystemManagment(systemManagment);
+        setSystemManagement(systemManagement);
     }
 
 }
