@@ -12,7 +12,7 @@
     <title>Province Record Overview</title>
 </head>
 <body>
-    <form name="search_record" action="/province/record" method="get">
+    <form name="search_record" action="/province/search_record" method="get">
         <input id="" type="text" name="" placeholder="调查期/地区"/>
         <button>搜索</button>
     </form>
@@ -21,7 +21,7 @@
             <form name="recorded_enterprises" action="/province/record_details" method="post">
                 <tr>
                     <td>
-                        <input id="enterprisename" name="enterprisename" type="text" value="${listValue.enterprisename}" readonly="readonly" />
+                        <input id="enterpriseName" name="enterpriseName" type="text" value="${listValue.enterpriseName}" readonly="readonly" />
                     </td>
                     <td>
                         <button class="button" type="submit">查看</button>

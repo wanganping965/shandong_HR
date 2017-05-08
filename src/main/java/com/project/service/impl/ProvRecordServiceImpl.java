@@ -1,7 +1,7 @@
-package com.project.db.service.impl;
+package com.project.service.impl;
 
-import com.project.db.model.EnterpriseBasicInformation;
-import com.project.db.service.ProvRecordService;
+import com.project.model.EnterpriseBasicInformation;
+import com.project.service.ProvRecordService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class ProvRecordServiceImpl implements ProvRecordService {
 
 
-
+    //only for test
     @Override
     public boolean exportRecord(EnterpriseBasicInformation enterpriseBasicInformation){
         return true;

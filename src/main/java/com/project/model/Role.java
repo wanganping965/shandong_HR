@@ -1,4 +1,4 @@
-package com.project.db.model;
+package com.project.model;
 
 /**
  * Created by 未来人类 on 2017/5/7.
