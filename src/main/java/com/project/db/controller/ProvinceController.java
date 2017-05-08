@@ -1,5 +1,8 @@
 package com.project.db.controller;
 
+import com.project.db.service.impl.ProvRecordServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -11,5 +14,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/province")
 
 public class ProvinceController {
+    private ProvRecordServiceImpl provRecordServiceImpl;
+    @Autowired
+    public void setProvRecordServiceImpl(@Qualifier("provRecordServiceImpl") ProvRecordServiceImpl provRecordServiceImpl) {
+        this.provRecordServiceImpl = provRecordServiceImpl;
+    }
 
 }
